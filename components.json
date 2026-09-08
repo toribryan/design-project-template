@@ -21,5 +21,7 @@
   },
   "menuColor": "default",
   "menuAccent": "subtle",
-  "registries": {}
+  "registries": {
+    "@fibo-ds": "https://golden-design-system.vercel.app/r/{name}.json"
+  }
 }
