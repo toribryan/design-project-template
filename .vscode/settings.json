@@ -1,0 +1,22 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "tailwindCSS.classFunctions": ["cva", "cn", "clsx"],
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "workbench.editor.customLabels.enabled": true,
+  "workbench.editor.customLabels.patterns": {
+    "**/page.*": "${dirname}.${extname}",
+    "**/layout.*": "${dirname}/layout.${extname}",
+    "**/loading.*": "${dirname}/loading.${extname}",
+    "**/error.*": "${dirname}/error.${extname}",
+    "**/not-found.*": "${dirname}/not-found.${extname}",
+    "**/route.*": "${dirname}/route.${extname}",
+    "**/index.*": "${dirname(1)}/${dirname}"
+  }
+}
